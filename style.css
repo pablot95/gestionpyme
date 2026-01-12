@@ -531,17 +531,18 @@ img {
 
 .social-icons {
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .social-icons a {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: fit-content;
+    padding: 8px 12px;
+    border-radius: 8px;
     background: rgba(255,255,255,0.1);
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
     transition: background 0.3s;
 }
 
