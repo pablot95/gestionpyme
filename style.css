@@ -1,12 +1,11 @@
 :root {
-    /* Palette */
-    --primary-dark: #1A0B2E;    /* Fondo principal: Violeta muy oscuro */
-    --primary-light: #2D1B4E;   /* Fondo secundario */
-    --primary-violet: #432C7A;  /* Violeta intermedio */
+    --primary-dark: #1A0B2E;
+    --primary-light: #2D1B4E;
+    --primary-violet: #432C7A;
     
-    --accent-gold: #D4AF37;     /* Dorado clásico */
-    --accent-rose: #E6C2BF;     /* Rosé Gold suave / Texto destacado */
-    --accent-rose-dark: #B76E79; /* Rosé Gold intenso */
+    --accent-gold: #D4AF37;
+    --accent-rose: #E6C2BF;
+    --accent-rose-dark: #B76E79;
     
     --text-white: #FFFFFF;
     --text-gray: #E0E0E0;
@@ -14,11 +13,9 @@
     --white: #FFFFFF;
     --black: #000000;
 
-    /* Fonts */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Montserrat', sans-serif;
     
-    /* Spacing */
     --section-padding: 80px 0;
 }
 
@@ -58,7 +55,6 @@ img {
     display: block;
 }
 
-/* Utilities */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -101,7 +97,6 @@ img {
     margin-top: 10px;
 }
 
-/* Base Buttons */
 .btn {
     display: inline-block;
     padding: 12px 30px;
@@ -147,7 +142,6 @@ img {
     background-color: #128C7E;
 }
 
-/* Navigation */
 .navbar {
     position: fixed;
     top: 20px;
@@ -168,7 +162,7 @@ img {
 }
 
 .logo img {
-    height: 50px; /* Ajustar según el logo real */
+    height: 50px;
     width: auto;
 }
 
